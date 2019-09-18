@@ -1,0 +1,33 @@
+{
+  "name": "mintpl",
+  "version": "1.0.0",
+  "description": "easy template engine",
+  "main": "./lib/minTpl.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pany-ang/minTpl.git"
+  },
+  "keywords": [
+    "easy",
+    "template"
+  ],
+  "author": "pany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pany-ang/minTpl/issues"
+  },
+  "homepage": "https://github.com/pany-ang/minTpl#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
